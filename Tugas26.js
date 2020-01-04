@@ -4,10 +4,10 @@ function tugas26() {
   for(i=0; i<numbers.length; i++){
 
     if (isFinite(numbers[i]===false)) {
-      console.log("Angka", numbers[i], "NOT Infinity")
+      console.log("Angka", String(numbers[i]), "NOT Infinity")
     }
     else {
-      console.log("Angka", numbers[i], "Infinity")
+      console.log("Angka", String(numbers[i]), "Infinity")
     }
   }
 }
